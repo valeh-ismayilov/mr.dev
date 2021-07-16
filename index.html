@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./assets/css/var.css">
+    <link rel="stylesheet" href="./assets/css/body.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr.Dev</title>
 
 </head>
-<body class="app">
-    <course-item
-        image = "front-end"
-        title = "Front-end"
-        shortAbout = "lorem"
-        link = "frontend">
-    </course-item>
-    <course-item
-        image = "python"
-        title = "Python"
-        shortAbout = "lorem"
-        link = "python">
-    </course-item>
+<body class="app" onload="_load(true)">
+    <nav class="section"></nav>
+    <main class="section"></main>
 </body>
 <script src="./assets/js/components/course-item.js"></script>
+
+<script src="./assets/js/load.js"></script>
+<script src="./assets/js/var.js"></script>
+
+<script src="./assets/js/sections/nav.js"></script>
+<script src="./assets/js/sections/main.js"></script>
 </html>

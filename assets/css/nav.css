@@ -1,0 +1,15 @@
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.nav-link:not(:last-child) {
+    margin-right: 15px;
+}

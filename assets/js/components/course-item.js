@@ -67,7 +67,7 @@ class Course extends HTMLElement{
                 ${this.getAttribute('shortAbout')}
             </div>
             <div class="course-link-container">
-                <a class="course-link" target="_blank" href="./app/details/${this.getAttribute('link')}.html">
+                <a class="course-link" target="_blank" href="${this.getAttribute('link')}">
                     Ətraflı
                 </a>
             </div>
